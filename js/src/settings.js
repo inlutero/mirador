@@ -7,7 +7,7 @@
 
     'workspaceType': 'singleObject',
 
-    'saveSession' : true,  //whether or not to store session to local storage
+    'saveSession' : false,  //whether or not to store session to local storage
 
     'workspaces' : {
       'singleObject': {
@@ -29,6 +29,8 @@
         'iconClass': 'book'
       }
     },
+
+    'manifests' : [],
 
     'layout': '1x1',
 
@@ -89,9 +91,16 @@
     ],
 
     'availableAnnotationDrawingTools': [
-
+       'Rectangle', 'Ellipse', 'Freehand', 'Polygon', 'Pin'
     ],
-    
+
+    'drawingToolsSettings': {
+      'doubleClickReactionTime': 300,
+      'strokeColor': 'deepSkyBlue',
+      'fillColor': 'deepSkyBlue',
+      'fillColorAlpha': 0.0
+    },
+
     'availableCanvasTools': [
 
     ],
